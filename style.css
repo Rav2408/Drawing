@@ -1,0 +1,40 @@
+#screen {
+    font-size: 20px;
+    line-height: 23px;
+    width: auto;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    word-wrap: break-word;
+}
+
+#panel {
+    font-size: 20px;
+    line-height: 23px;
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    word-wrap: break-word;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    animation: myAnimation  3s linear infinite;
+}
+
+
+@keyframes myAnimation
+{
+    0%   { color: gray;}
+    50%   { color: white;}
+    100% { color: gray;}
+}
+
+body {
+    margin-inline: 10%;
+    margin-top: 0px;
+}
