@@ -71,6 +71,4 @@ function gameOver(){
 function updatePanel(){
     drawMiddle('Lives: ' + (settings.lives - settings.howManyTimesHit) + ' Score: ' + settings.score + 
     ' Level: ' + settings.level,-8)
-    // panel.innerHTML='Lives: ' + (parseInt(settings.lives) - settings.howManyTimesHit) + ' Score: ' + settings.score + 
-    // ' Level: ' + settings.level
 }
