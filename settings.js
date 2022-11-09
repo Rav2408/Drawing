@@ -1,5 +1,6 @@
-gameScreen = document.getElementById('screen')
-panel = document.getElementById('panel')
+const gameScreen = document.getElementById('screen')
+const panel = document.getElementById('panel')
+const visitCounterHtml = document.getElementById('visitCounter')
 
 settings = {
     bounds : {

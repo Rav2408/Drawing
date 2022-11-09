@@ -26,6 +26,7 @@ function waitForUser(params) {
 }
 
 function start() {
+    visitCounter()
     initBounds()
     clear()
     drawMiddle('<\\> Space Wars <\\>')
