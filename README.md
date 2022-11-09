@@ -1,3 +1,3 @@
 # SpaceWarsASCII
 
-[Gane](docs/index.html)
+[Game](index.html)
