@@ -19,6 +19,14 @@ function waitForUser(params) {
             startGame()
             return
         }
+        if (settings.pressedKeys['p']) {
+            window.location.href = "https://rav2408.github.io/SpaceWars/";
+            return
+        }
+        if (settings.pressedKeys['P']) {
+            window.location.href = "https://rav2408.github.io/SpaceWars/";
+            return
+        }
         
         window.requestAnimationFrame(step)
     }
@@ -54,7 +62,7 @@ function chooseLevel(){
 
     drawMiddle('Choose Mode',middleColumn+3)
     drawMiddle('Easy: 1    Medium: 2    Hard: 3',middleColumn+5)
-    drawMiddle('<div>           Press 1,2, or 3 to start...</div>', 7)
+    drawMiddle('<div>           Press 1,2, or 3 to start or P to change to graphic version...</div>', 7)
     render()
 }
 
